@@ -1,6 +1,25 @@
 body {
     background-color: #000034;
   }
+  #menu {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #8080ff;
+  overflow-x: hidden;
+  padding-top: 20px;
+      
+  #menu a {
+      font-size: 20px;
+      font-family: helvetica;
+      font-color: mintcream;
+      
+  #content
+      margin-left: 120px;
+      
   h1 {
     text-align: center;
     color: mintcream;
@@ -86,6 +105,7 @@ body {
   #skills {
       column-count: 2;
       column-gap: 40px;
+      column-width: 100px;
       column-rule-width: 0px;
   }
 

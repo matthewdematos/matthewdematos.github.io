@@ -12,12 +12,14 @@ body {
     color: mintcream;
     font-size: 25px;
     font-family: helvetica;
+    margin-bottom: 100px;
   }
   h3 {
     padding-left: 20px;
     padding-top: 10px;
     color: mintcream; 
     font-family: helvetica;
+    font-size: 22px;
   }
   h4 {
     padding-left: 20px;
@@ -45,22 +47,27 @@ body {
     padding-bottom: 30px;
     padding-left: 20px;
   }
-  ol.cv {
-    list-style-type: circle;
-    color: mintcream;
-    font-size: 14px;
-    font-family: helvetica;
-    padding-left: 30px;
+    ol.cv {
+      list-style-type: circle;
+      color: mintcream;
+      font-size: 14px;
+      font-family: helvetica;
+      padding-left: 30px;
   }
-a:link {
-  color: palegoldenrod;
-}
-a:visited {
-  color: gray;
-}
-a:hover {
-  color: hotpink;
-}
-a:active {
-  color: red;
-}
+   a:link {
+      color: palegoldenrod;
+  }
+   a:visited {
+      color: gray;
+  }
+   a:hover {
+      color: hotpink;
+  }
+   a:active {
+      color: red;
+  }
+  #skills {
+  display: flex;
+  }
+
+    

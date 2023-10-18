@@ -55,12 +55,12 @@ body {
     padding-bottom: 30px;
     padding-left: 20px;
   }
-    ol.cv {
-      list-style-type: circle;
-      color: mintcream;
-      font-size: 14px;
-      font-family: helvetica;
-      padding-left: 30px;
+  ol.cv {
+    list-style-type: circle;
+    color: mintcream;
+    font-size: 14px;
+    font-family: helvetica;
+    padding-left: 30px;
   }
    a:link {
       color: palegoldenrod;

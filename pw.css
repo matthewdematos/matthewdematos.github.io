@@ -110,6 +110,9 @@ Learned how to use classes in lecture with Shawn Morgan*/
   li {
     margin-left: 10px;
   }
+  .space {
+      list-style-type: none;
+  }
 /* Class tags for the links inside the navbar. Formatting tips from 
 https://www.w3schools.com/css/css_link.asp */
   .nav {

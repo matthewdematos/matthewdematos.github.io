@@ -48,7 +48,8 @@ Used w3 Schools (https://www.w3schools.com/css/css_link.asp)*/
     font-family: helvetica;
     color: mintcream;
     padding-bottom: 10px;
-    text-decoration: none;
+    text-decoration: none
+ }
  .nav:visited {
       color: #000034;
   }

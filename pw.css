@@ -101,11 +101,13 @@ Learned how to use classes in lecture with Shawn Morgan*/
       margin-bottom: 20px;
   }
   ol.cv {
+    column-count: 2;
     list-style-type: circle;
     color: mintcream;
     font-size: 14px;
     font-family: helvetica;
     padding-left: 30px;
+  }
   }
   li {
     margin-left: 10px;
@@ -144,11 +146,11 @@ https://www.w3schools.com/css/css_link.asp */
 /* Wanted skills in bullets but there was empty space, so used columns referred to 
 in the TableOption section of the assignment instructions on w3 schools to format
 (https://www.w3schools.com/css/css3_multiple_columns.asp)*/
-  #skills {
+  /* #skills {
       column-count: 2;
       column-gap: 40px;
       column-width: 100px;
-      column-rule-width: 0px;
+      column-rule-width: 0px; */
   }
 /* Wanted 5 small images of a similar size, that could sit beside each other, each with a clear focus on an animal. 
 Formatting help from w3schools (https://www.w3schools.com/html/html_images.asp) and 

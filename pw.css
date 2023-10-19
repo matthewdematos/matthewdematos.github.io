@@ -12,17 +12,17 @@ body {
   overflow-x: hidden;
   padding-top: 20px;
   }
-  a.nav {
+  .nav {
     font-size: 20px;
     font-family: helvetica;
     color: mintcream;
     padding-left: 10px;
     padding-bottom: 10px;
   }
-  a.nav:visited {
+  .nav:visited {
       color: grey;
   }
-  a.nav:hover {
+  .nav:hover {
       color:red;
   }
   .content {
@@ -91,6 +91,9 @@ body {
     padding-bottom: 30px;
     padding-left: 20px;
     margin-inline-start: 5px;
+  }
+  ul {
+    padding-inline-start: 15px;
   }
   ol.cv {
     list-style-type: circle;

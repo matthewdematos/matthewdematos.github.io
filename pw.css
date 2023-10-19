@@ -41,7 +41,7 @@ of the content to suit my website */
       margin-inline-start: 10px;
       margin-bottom: 20px;
   }
-*/ Formatting for links in navigation bar, default target to stay within website 
+/* Formatting for links in navigation bar, default target to stay within website 
 Used w3 Schools (https://www.w3schools.com/css/css_link.asp)*/
  .nav {
     font-size: 20px;
@@ -179,4 +179,4 @@ StackOverflow (https://stackoverflow.com/questions/27929747/html-css-display-ima
 #wildlife {
     margin-left: 10px;
 }
-/*ImageOption Start*/
+/*ImageOption End*/

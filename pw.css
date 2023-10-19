@@ -43,6 +43,12 @@ of the content to suit my website */
   }
 */ Formatting for links in navigation bar, default target to stay within website 
 Used w3 Schools (https://www.w3schools.com/css/css_link.asp)*/
+ .nav {
+    font-size: 20px;
+    font-family: helvetica;
+    color: mintcream;
+    padding-bottom: 10px;
+    text-decoration: none;
  .nav:visited {
       color: #000034;
   }
@@ -162,6 +168,7 @@ https://stackoverflow.com/questions/6509106/is-there-a-way-to-break-a-list-into-
   }
 /* LinkOption End*/
 
+/* ImageOption Start*/
 /* Wanted 5 small images of a similar size, that could sit beside each other, each with a clear focus on an animal. 
 Formatting help from w3schools (https://www.w3schools.com/html/html_images.asp) and 
 StackOverflow (https://stackoverflow.com/questions/27929747/html-css-display-image-at-screen-width-up-to-original-width)*/
@@ -172,3 +179,4 @@ StackOverflow (https://stackoverflow.com/questions/27929747/html-css-display-ima
 #wildlife {
     margin-left: 10px;
 }
+/*ImageOption Start*/

@@ -1,6 +1,21 @@
+/* Personal Website Assignment - Matthew De Matos
+GEOM 101, Fall 2023
+Geographic Information Systems - Applications Specialist program, Fleming College
+
+Used the w3schools margin page (https://www.w3schools.com/css/css_margin.asp), font page 
+(https://www.w3schools.com/css/css_font.asp), text page (https://www.w3schools.com/css/css_text.asp)
+and the Colour Picker (https://www.w3schools.com/colors/colors_picker.asp heavily throughout the document for 
+formatting all block and text elements*/
+
+/* Wanted a dark, but not quite black background. Used https://www.w3schools.com/css/css_background.asp for
+background formatting and the colour picker to decide on a good colour*/
 body {
     background-color: #000034;
   }
+/* I wanted my sidebar to stay fixed to the side of the screen, similar to w3schools, so I used 
+https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp to learn how this is done. Kept many of the 
+elements from the example to ensure the element works properly, but changed the colours and formatting 
+of the content to suit my website */
   .menu {
   height: 100%;
   width: 140px;
@@ -12,6 +27,8 @@ body {
   overflow-x: hidden;
   padding-top: 15px;
   }
+/* Class tags for the links inside the navbar. Formatting tips from 
+https://www.w3schools.com/css/css_link.asp */
   .nav {
     font-size: 20px;
     font-family: helvetica;
@@ -29,7 +46,9 @@ body {
       margin-left: 130px;
       margin-bottom: 30px;
   }
-
+/* Headings designed to replicate the formatting of my current resume. Manually edited size and 
+margin inline start to improve the design and override 2 of the default user agent stylesheet elements.
+Heavily used the developer tools in F12, as demonstrated in lab by Shawn Morgan, to make decisions about headings.*/
   h1 {
     text-align: center;
     color: mintcream;

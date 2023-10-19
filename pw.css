@@ -141,5 +141,7 @@ Heavily used the developer tools in F12, as demonstrated in lab by Shawn Morgan,
       column-width: 100px;
       column-rule-width: 0px;
   }
-
-    
+  img {
+      width: 100%;
+      max-width: 200px;
+  }

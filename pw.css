@@ -12,20 +12,21 @@ body {
   overflow-x: hidden;
   padding-top: 20px;
   }
-  .nav {
+  a.nav {
     font-size: 20px;
     font-family: helvetica;
     color: mintcream;
     padding-left: 10px;
+    padding-bottom: 10px;
   }
   a.nav:visited {
       color: grey;
   }
   a.nav:hover {
-      color:red
+      color:red;
   }
   .content {
-      margin-left: 150px;
+      margin-left: 130px;
   }
 
   h1 {

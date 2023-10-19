@@ -110,7 +110,7 @@ Learned how to use classes in lecture with Shawn Morgan*/
   li {
     margin-left: 10px;
   }
-  .space {
+  #space {
       list-style-type: none;
   }
 /* Class tags for the links inside the navbar. Formatting tips from 

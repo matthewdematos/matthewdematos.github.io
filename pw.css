@@ -100,7 +100,7 @@ Learned how to use classes in lecture with Shawn Morgan*/
       margin-inline-start: 10px;
       margin-bottom: 20px;
   }
-  .cv {
+  ul.cv {
     list-style-type: circle;
     color: mintcream;
     font-size: 14px;
@@ -117,9 +117,6 @@ Learned how to use classes in lecture with Shawn Morgan*/
   }
   li {
     margin-left: 10px;
-  }
-  #space {
-      list-style-type: none;
   }
 /* Class tags for the links inside the navbar. Formatting tips from 
 https://www.w3schools.com/css/css_link.asp */
@@ -156,8 +153,8 @@ in the TableOption section of the assignment instructions on w3 schools to forma
       column-count: 2;
       column-gap: 40px;
       column-width: 100px;
-      column-rule-width: 0px; */
-  }
+      column-rule-width: 0px; 
+  }*/
 /* Wanted 5 small images of a similar size, that could sit beside each other, each with a clear focus on an animal. 
 Formatting help from w3schools (https://www.w3schools.com/html/html_images.asp) and 
 StackOverflow (https://stackoverflow.com/questions/27929747/html-css-display-image-at-screen-width-up-to-original-width)*/

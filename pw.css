@@ -100,14 +100,20 @@ Learned how to use classes in lecture with Shawn Morgan*/
       margin-inline-start: 10px;
       margin-bottom: 20px;
   }
-  ol.cv {
-    column-count: 2;
+  .cv {
     list-style-type: circle;
     color: mintcream;
     font-size: 14px;
     font-family: helvetica;
     padding-left: 30px;
   }
+  #skills {
+    list-style-type: circle;
+    color: mintcream;
+    font-size: 14px;
+    font-family: helvetica;
+    padding-left: 30px;
+    column-count: 2;
   }
   li {
     margin-left: 10px;

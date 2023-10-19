@@ -3,19 +3,26 @@ body {
   }
   .menu {
   height: 100%;
-  width: 160px;
+  width: 140px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #8080ff;
+  background-color: #1a8cff;
   overflow-x: hidden;
   padding-top: 20px;
   }
-  .menu a {
+  .nav {
     font-size: 20px;
     font-family: helvetica;
-    font-color: mintcream;
+    color: mintcream;
+    padding-left: 10px;
+  }
+  .nav:visited {
+      color: grey;
+  }
+  .nav:hover {
+      color:red
   }
   .content {
       margin-left: 120px;

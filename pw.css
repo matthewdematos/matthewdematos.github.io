@@ -36,16 +36,9 @@ body {
     font-size: 40px;
     font-family: helvetica;
     margin-inline-start: 5px;
+    margin-bottom: 40px;
   }
   h2 {
-    text-align: center;
-    color: mintcream;
-    font-size: 25px;
-    font-family: helvetica;
-    margin-bottom: 100px;
-    margin-inline-start: 5px;
-  }
-  h3 {
     padding-left: 20px;
     padding-top: 10px;
     color: mintcream; 
@@ -54,7 +47,7 @@ body {
     margin-bottom: 5px;
     margin-inline-start: 5px;
   }
-  h4 {
+  h3 {
     padding-left: 20px;
     padding-top: 30px;
     color: mintcream; 
@@ -65,7 +58,7 @@ body {
     font-weight: normal;
     margin-inline-start: 5px;
   }
-  h5 {
+  h4 {
     padding-left: 20px;
     color: mintcream; 
     font-family: helvetica;

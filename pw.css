@@ -27,21 +27,6 @@ of the content to suit my website */
   overflow-x: hidden;
   padding-top: 15px;
   }
-/* Class tags for the links inside the navbar. Formatting tips from 
-https://www.w3schools.com/css/css_link.asp */
-  .nav {
-    font-size: 20px;
-    font-family: helvetica;
-    color: mintcream;
-    padding-bottom: 10px;
-    text-decoration: none;
-  }
-  .nav:visited {
-      color: #000034;
-  }
-  .nav:hover {
-      color:red;
-  }
   .content {
       margin-left: 130px;
       margin-bottom: 30px;
@@ -87,6 +72,8 @@ Heavily used the developer tools in F12, as demonstrated in lab by Shawn Morgan,
     font-weight: normal;
     margin-inline-start: 5px;
   }
+/*created a class for this heading so it would be the same size but with a larger left margin.
+Learned how to use classes in lecture with Shawn Morgan*/
   .education {
     padding-left: 40px;
     color: mintcream; 
@@ -101,7 +88,7 @@ Heavily used the developer tools in F12, as demonstrated in lab by Shawn Morgan,
     color: mintcream; 
     font-family: helvetica;
     font-size: 14px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-left: 20px;
     margin-inline-start: 5px;
   }
@@ -123,24 +110,46 @@ Heavily used the developer tools in F12, as demonstrated in lab by Shawn Morgan,
   li {
     margin-left: 10px;
   }
-   a:link {
+/* Class tags for the links inside the navbar. Formatting tips from 
+https://www.w3schools.com/css/css_link.asp */
+  .nav {
+    font-size: 20px;
+    font-family: helvetica;
+    color: mintcream;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+  .nav:visited {
+      color: #000034;
+  }
+  .nav:hover {
+      color:red;
+  }
+
+   .ext:link {
       color: palegoldenrod;
   }
-   a:visited {
+   .ext:visited {
       color: gray;
   }
-   a:hover {
+   .ext:hover {
       color: hotpink;
   }
-   a:active {
+   .ext:active {
       color: red;
   }
+/* Wanted skills in bullets but there was empty space, so used columns referred to 
+in the TableOption section of the assignment instructions on w3 schools to format
+(https://www.w3schools.com/css/css3_multiple_columns.asp)*/
   #skills {
       column-count: 2;
       column-gap: 40px;
       column-width: 100px;
       column-rule-width: 0px;
   }
+/* Wanted 5 small images of a similar size, that could sit beside each other, each with a clear focus on an animal. 
+Formatting help from w3schools (https://www.w3schools.com/html/html_images.asp) and 
+StackOverflow (https://stackoverflow.com/questions/27929747/html-css-display-image-at-screen-width-up-to-original-width)*/
   img {
       width: 100%;
       max-width: 200px;

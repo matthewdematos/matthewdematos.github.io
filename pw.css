@@ -92,6 +92,7 @@ body {
   }
   .navlist {
       margin-inline-start: 10px;
+      margin-bottom: 20px;
   }
   ol.cv {
     list-style-type: circle;
